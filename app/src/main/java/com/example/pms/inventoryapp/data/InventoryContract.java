@@ -39,17 +39,5 @@ public final class InventoryContract {
         public final static String COLUMN_INVENTORY_PRICE = "price";
 
         public final static String COLUMN_INVENTORY_IMAGE = "image";
-
-        public final static String COLUMN_INVENTORY_SELECTED = "selected";
-
-        public static final int SELECTED_TRUE = 1;
-        public static final int SELECTED_FALSE = 0;
-
-        public static boolean isValidSelected(int selected) {
-            if (selected == SELECTED_FALSE || selected == SELECTED_TRUE) {
-                return true;
-            }
-            return false;
-        }
     }
 }
